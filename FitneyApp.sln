@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitneyApp.CMD", "FitneyApp.CMD\FitneyApp.CMD.csproj", "{739B9594-05B6-4F8E-80D2-EF47133F74B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitneyApp.BL", "FitneyApp.BL\FitneyApp.BL.csproj", "{51DDDACD-0B23-425A-B982-7E8B610296B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{739B9594-05B6-4F8E-80D2-EF47133F74B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739B9594-05B6-4F8E-80D2-EF47133F74B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739B9594-05B6-4F8E-80D2-EF47133F74B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739B9594-05B6-4F8E-80D2-EF47133F74B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DDDACD-0B23-425A-B982-7E8B610296B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DDDACD-0B23-425A-B982-7E8B610296B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DDDACD-0B23-425A-B982-7E8B610296B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DDDACD-0B23-425A-B982-7E8B610296B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
