@@ -2,6 +2,7 @@
 
 namespace FitneyApp.BL.Model
 {
+    [Serializable]
     /// <summary>
     /// Пользователь.
     /// </summary>
@@ -31,7 +32,7 @@ namespace FitneyApp.BL.Model
         /// <summary>
         /// Рост.
         /// </summary>
-        public int Height { get; set; }
+        public double Height { get; set; }
         #endregion
 
         /// <summary>
@@ -43,7 +44,7 @@ namespace FitneyApp.BL.Model
         /// <param name="weight"> Вес. </param>
         /// <param name="height"> Рост. </param>
 
-        public User(string name, Gender gender, DateTime birthDate, double weight, int height)
+        public User(string name, Gender gender, DateTime birthDate, double weight, double height)
         {
             #region Проверка условий
             if (string.IsNullOrWhiteSpace(name))

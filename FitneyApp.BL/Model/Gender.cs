@@ -2,6 +2,7 @@
 
 namespace FitneyApp.BL.Model
 {
+    [Serializable]
     /// <summary>
     /// Пол.
     /// </summary>
