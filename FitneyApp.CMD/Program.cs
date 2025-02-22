@@ -1,6 +1,9 @@
 ﻿using FitneyApp.BL.Controller;
 using FitneyApp.BL.Model;
 using System;
+using FitneyApp.CMD.Languages;
+using System.Globalization;
+using System.Resources;
 
 namespace FitneyApp.CMD
 {
@@ -8,9 +11,13 @@ namespace FitneyApp.CMD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет");
 
-            Console.Write("Введите ваше имя:");
+            var culture = CultureInfo.CreateSpecificCulture("en-us");
+            var resourceManager = new ResourceManager("FitneyApp.CMD.Languages.Messages", typeof(Program).Assembly);
+
+            Console.WriteLine(resourceManager.GetString("Welcome"), culture);
+
+            Console.Write(resourceManager.GetString("EnterName"), culture);
             var name = Console.ReadLine();
 
 
